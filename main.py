@@ -1,9 +1,9 @@
-# import os
+import os
 from view import *
 
-# clear = lambda: os.system('cls' if os.name == 'nt' else 'clear')
+clear = lambda: os.system('cls' if os.name == 'nt' else 'clear')
 
 # while True:
-# clear()
+clear()
 start = Start()
 start.choose()
